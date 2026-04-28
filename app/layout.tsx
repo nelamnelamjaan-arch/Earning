@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   title: "Earning Pro Platform",
   description:
     "Professional blog and web tools platform with modern SEO-first architecture.",
+  verification: {
+    google: "z_DpQ8wwG4ykJbw_rrLglpPjZnEew2Qf79vCrjGo1V8",
+  },
 };
 
 export default function RootLayout({
