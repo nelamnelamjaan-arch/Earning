@@ -4,7 +4,7 @@ import { storeProducts } from "@/lib/store-products";
 import { tools } from "@/lib/tools";
 
 const siteUrl = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://ks-tech-hub.netlify.app"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://earning-gamma.vercel.app"
 ).replace(/\/$/, "");
 
 export default function sitemap(): MetadataRoute.Sitemap {
