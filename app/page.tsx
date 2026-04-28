@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getAllBlogPosts } from "@/lib/blog";
 import { tools } from "@/lib/tools";
+import { NativeAdBanner } from "@/components/native-ad-banner";
 
 export default function Home() {
   const posts = getAllBlogPosts().slice(0, 3);
@@ -64,6 +65,8 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <NativeAdBanner />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getAllBlogPosts, getBlogPostBySlug } from "@/lib/blog";
+import { NativeAdBanner } from "@/components/native-ad-banner";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -58,6 +59,9 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
         <div className="mt-8 rounded-xl border border-dashed border-border bg-background p-3 text-center text-xs font-medium text-muted">
           [AdSense Bottom]
+        </div>
+        <div className="mt-8">
+          <NativeAdBanner />
         </div>
       </article>
       <aside className="h-fit rounded-3xl border border-border bg-card p-5">

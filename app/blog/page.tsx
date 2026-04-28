@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getAllBlogPosts } from "@/lib/blog";
+import { NativeAdBanner } from "@/components/native-ad-banner";
 
 export default function BlogIndexPage() {
   const posts = getAllBlogPosts();
@@ -40,6 +41,8 @@ export default function BlogIndexPage() {
           Open Guest Post Details
         </Link>
       </div>
+
+      <NativeAdBanner />
     </section>
   );
 }
