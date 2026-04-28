@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     "Professional blog and web tools platform with modern SEO-first architecture.",
   verification: {
     google: "z_DpQ8wwG4ykJbw_rrLglpPjZnEew2Qf79vCrjGo1V8",
-  },
-  other: {
-    "p:domain_verify": "77a2ce9fca1c7058f559e28810fd52c8",
+    other: {
+      "p:domain_verify": ["77a2ce9fca1c7058f559e28810fd52c8"],
+    },
   },
 };
 
