@@ -5,6 +5,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { WhatsAppShareButton } from "@/components/whatsapp-share-button";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -46,6 +47,7 @@ export default function RootLayout({
             {children}
           </main>
           <SiteFooter />
+          <WhatsAppShareButton />
         </ThemeProvider>
         <Script
           src="https://pl29279758.profitablecpmratenetwork.com/56/9a/4e/569a4e9ad4f81c18d07af152001160ed.js"
