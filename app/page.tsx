@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getAllBlogPosts } from "@/lib/blog";
 import { tools } from "@/lib/tools";
 import { NativeAdBanner } from "@/components/native-ad-banner";
+import { InstallAppButton } from "@/components/install-app-button";
 
 export default function Home() {
   const posts = getAllBlogPosts().slice(0, 3);
@@ -17,6 +18,7 @@ export default function Home() {
           Built with Next.js App Router, MDX content management, and a high-end
           dark/light visual system.
         </p>
+        <InstallAppButton />
       </section>
 
       <section className="space-y-4">
