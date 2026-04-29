@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SiteHeader } from "@/components/site-header";
@@ -47,10 +46,6 @@ export default function RootLayout({
           </main>
           <SiteFooter />
         </ThemeProvider>
-        <Script
-          src="https://pl29279758.profitablecpmratenetwork.com/56/9a/4e/569a4e9ad4f81c18d07af152001160ed.js"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   );
